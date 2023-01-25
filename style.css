@@ -11,6 +11,7 @@
     --tile-blue-color: rgb(57, 57, 247);
     --tile-green-color: rgb(62, 243, 62);
     --tile-yellow-color: rgb(250, 250, 48);
+    --flash-color: white;
 }
 
 /* custom classes */
@@ -32,30 +33,31 @@ body{
     justify-items: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
-#red, #blue, #green, #yellow{
+.red, .blue, .green, .yellow{
     width: 12.5rem;
     height: 12.5rem;
     border: 0.5rem solid var(--body-bg-color);
 }
 
-#red{
+.red{
     background-color: var(--tile-red-color);
     border-top-left-radius: 100%;
 }
 
-#blue{
+.blue{
     background-color: var(--tile-blue-color);
     border-bottom-left-radius: 100%;
 }
 
-#green{
+.green{
     background-color: var(--tile-green-color);
     border-top-right-radius: 100%;
 }
 
-#yellow{
+.yellow{
     background-color: var(--tile-yellow-color);
     border-bottom-right-radius: 100%;
 }
@@ -63,3 +65,29 @@ body{
 .row1, .row2{
     display: flex
 }
+
+.active{
+    background-color: var(--flash-color);
+}
+
+.tile:hover{
+    box-shadow: inset 0px  0px 0px 5px cyan;
+    box-sizing: border-box;
+}
+
+.start-btn{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 35%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.hidden{
+    display: none;
+}
+
