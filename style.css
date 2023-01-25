@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --body-bg-color: black;
+    --body-foreground-color: white;
+    --tile-red-color: rgb(252, 33, 33);
+    --tile-blue-color: rgb(57, 57, 247);
+    --tile-green-color: rgb(62, 243, 62);
+    --tile-yellow-color: rgb(250, 250, 48);
+}
+
+/* custom classes */
+/* ------------------------ */
+.flex{
+    display:flex;
+}
+
+/* ------------------------ */
+
+body{
+    background-color: var(--body-bg-color);
+    color: var(--body-foreground-color);
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#red, #blue, #green, #yellow{
+    width: 12.5rem;
+    height: 12.5rem;
+    border: 0.5rem solid var(--body-bg-color);
+}
+
+#red{
+    background-color: var(--tile-red-color);
+    border-top-left-radius: 100%;
+}
+
+#blue{
+    background-color: var(--tile-blue-color);
+    border-bottom-left-radius: 100%;
+}
+
+#green{
+    background-color: var(--tile-green-color);
+    border-top-right-radius: 100%;
+}
+
+#yellow{
+    background-color: var(--tile-yellow-color);
+    border-bottom-right-radius: 100%;
+}
+
+.row1, .row2{
+    display: flex
+}
