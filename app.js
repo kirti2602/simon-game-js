@@ -49,7 +49,7 @@ const flashRunner = async (computerSequenceCopy) => {
         await flash(tile)
     }
     canClick= true; // now user can click
-    info.textContent = "Your turn: " + computerSequence.length
+    info.textContent = "Your turn! Press " + computerSequence.length + " times"
 
 }
 
