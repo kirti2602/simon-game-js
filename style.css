@@ -7,10 +7,10 @@
 :root{
     --body-bg-color: black;
     --body-foreground-color: white;
-    --tile-red-color: rgb(252, 33, 33);
-    --tile-blue-color: rgb(57, 57, 247);
-    --tile-green-color: rgb(62, 243, 62);
-    --tile-yellow-color: rgb(250, 250, 48);
+    --tile-red-color: rgb(255, 8, 8);
+    --tile-blue-color: rgb(16, 16, 248);
+    --tile-green-color: rgb(12, 243, 12);
+    --tile-yellow-color: rgb(248, 248, 11);
     --flash-color: white;
 }
 
@@ -91,3 +91,6 @@ body{
     display: none;
 }
 
+.bright{
+    filter: brightness(4.75);
+}
