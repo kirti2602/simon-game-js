@@ -13,7 +13,7 @@ if(!sessionStorage.highScore){
 }
 
 
-highScore.innerHTML += sessionStorage.highScore;
+highScore.innerHTML += sessionStorage.highScore+ "0";
 
 
 const getRandomTiles = () => {
@@ -81,7 +81,7 @@ for (const tile of tiles) {
         } 
         else{
             userHighScore = computerSequence.length-1;
-            console.log(userHighScore)
+            // console.log(userHighScore)
             if(userHighScore > Number(sessionStorage.highScore)){
                 sessionStorage.highScore = userHighScore;
             }
