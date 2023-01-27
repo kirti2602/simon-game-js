@@ -76,11 +76,15 @@ body{
     width: 10rem;
     border-radius: 100%;
     background-color: black;
-    position: absolute;
-    bottom: 35%;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+
+    /* for centering start btn */
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, 0);
 }
 
 .hidden{

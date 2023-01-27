@@ -100,13 +100,13 @@ for (const tile of tiles) {
 
 
 /* suggested changes
-1) Resolve the issue of centring the div!
-2) Add the functionality of current round score along with Highscore
-3) Change the code where we use tiles.length. Make use of global variable instead of calculating length every-time.
-4) The computer starts playing the sequence immediately after I end up my turn, creating a little confusion. Can add a little pause there.
+1) Resolve the issue of centring the div! 
+2) Add the functionality of current round score along with Highscore -- DONE
+3) Change the code where we use tiles.length. Make use of global variable instead of calculating length every-time. -- DONE
+4) The computer starts playing the sequence immediately after I end up my turn, creating a little confusion. Can add a little pause there. --DONE
 5) Can remove id here https://github.com/kirti2602/simon-game-js/blob/78e65417b8f5f85c7ddf9551e141ddc336f86ada/index.html#L23 
-since it is blank. Or you can give the background color (red/blue/yellow/green) as ID instead of class.
+since it is blank. Or you can give the background color (red/blue/yellow/green) as ID instead of class. --DONE
 6) Row1 and row 2 are already given dislpay: flex in css (Refer here). But again they are explicitly given 
-flex class in html class(Refer here). Can avoid this duplicate styling!
+flex class in html class(Refer here). Can avoid this duplicate styling! --DONE
 */
 
