@@ -62,10 +62,6 @@ body{
     border-bottom-right-radius: 100%;
 }
 
-.row1, .row2{
-    display: flex
-}
-
 .active{
     background-color: var(--flash-color);
 }
